@@ -182,7 +182,7 @@ client_and_work:
       is_even: true
 
     - title: "Tourist website \"Towny\""
-      description: "Responsive web application dedicated to a fictious touristic town, named &quot;Towny&quot;, implemented in Vue 2 and NuxtJS 2. SEO-optimized and SSG rendered."
+      description: "Responsive web application dedicated to a fictious touristic town, named \"Towny\", implemented in Vue 2 and NuxtJS 2. SEO-optimized and SSG rendered."
       button:
         icon: "icon-github-line"
         btnText: "Check it out"
