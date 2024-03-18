@@ -1,1 +1,0 @@
-hugo serve --noHTTPCache --ignoreCache --disableFastRender
