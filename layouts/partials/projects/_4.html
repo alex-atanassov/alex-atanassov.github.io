@@ -1,0 +1,29 @@
+{{ if .Site.Data._3.about.enable }}
+<section class="section rad-animation-group pb-0" id="about">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <h1 style="font-size: 48px;">
+          {{ .Site.Data._3.showcase.title }}
+          <br />
+          <span style="display: block; margin-top: 5px; font-weight: 300;"
+            >{{ .Site.Data._3.showcase.subtitle }}</span
+          >
+        </h1>
+        <p class="lead">
+          {{ .Site.Data._3.showcase.description | safeHTML }}
+        </p>
+      </div>
+      <div class="rad-showcase__bg about__profile-picture col-12 col-md-6">
+        <img
+          class="lozad img-responsive"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="{{ .Site.Data._3.about.image.x | absURL }}"
+          data-srcset="{{ .Site.Data._3.about.image.x | absURL }} 1x, {{ .Site.Data._3.about.image._2x | absURL }} 2x"
+          alt="Profile Picture"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

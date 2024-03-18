@@ -1,0 +1,51 @@
+<!-- inject:../components/baseHead/baseHeadStart.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    {{ partial "head.html" . }}
+
+    {{ partial "head_custom.html" . }}
+
+</head>
+
+<body>
+
+	{{ partial "header.html" . }}
+
+	<!-- {{ range .Site.Params.sections }}
+	{{ partial . $ }}
+	<br />
+	{{ end }} -->
+
+	<!-- {{ partial "about.html" . }} -->
+	{{ partial "projects/_3.html" . }}
+
+	<section class="rad-animation-group rad-fade-down">
+	<div class="container">
+
+	<br /><br/>
+	<p class='lead'>
+		This thesis was conducted as part of an internship in Ericsson Research Finland.
+		The thesis was awarded with perfect score at both Aalto and Polimi, and was presented at the Ericsson HQ in Sweden in occasion of multiple internal events with experts from all over the globe.
+	</p>
+	<!-- <p class='lead'>
+		<b class='subsection-title'>Supervisors:</b> Matti Siekkinen (PhD, Aalto University),<br/> Lorenzo Corneo (PhD, Ericsson Research)
+	</p> 
+	<p class='lead'>
+		<b class='subsection-title'>GRADE: 5/5 (Excellent)</b>
+	</p>  -->
+
+	<p class="lead">
+		The video displayed below showcases ViReo in the use case of facility management, recorded from the Meta Quest 2 VR headset. The demo is mostly a proof of concept, and shall not be seen as a finished product, but rather a demonstrator of how VR can enhance the visualization and interaction of IoT data, enabling remote monitoring and control of IoT sensors in facility maintenance. Indeed, the user does not need to be physically present to fix an anomaly, but can achieve so remotely by wearing the headset. Compared to 2D screens, VR presents more immersive and natural ways of interacting with 3D spaces, which may be seen as an advantage in terms of User Experience.
+	</p> 
+	</div>
+	</section>
+
+	{{ partial "footer.html" . }}
+    {{ partial "base-foot.html" . }} 
+</body>
+
+</html>
+<!-- endinject -->

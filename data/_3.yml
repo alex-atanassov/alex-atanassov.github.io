@@ -1,0 +1,196 @@
+# showcase
+showcase:
+  enable: true
+  title: "ViReo: IoT meets VR"
+  subtitle: "Master's Thesis"
+  description: "<p class='lead'>
+  ViReo is a system that enables visualization and interaction with IoT devices in VR applications. The design of ViReo aims to achieve ease of integration of heterogeneous IoT systems through standard methods, in
+  VR. Essential capabilities were also identified for the Network Platform
+  to support ease of use and seamless integration in XR-IoT systems.
+  </p>
+  <p class='lead'>
+		<b class='subsection-title'>Supervisors:</b> Matti Siekkinen (PhD, Aalto University),<br/> Lorenzo Corneo (PhD, Ericsson Research)
+	</p> 
+	<p class='lead'>
+		<b class='subsection-title'>GRADE: 5/5 (Excellent)</b>
+	</p>"
+
+  image:
+    x: "img/works/projects/vireo.jpg"
+    _2x: "img/works/vireo.jpg"
+  imageMobile:
+    x: "img/works/projects/vireo.jpg"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: "<p class='lead'>
+    I have a brilliant academic career, marked by a Bachelor Degree completed with a <a target='_blank' href='https://alumni.polimi.it/en/2021/11/09/al-poli-borse-di-studio-e-mentoring-per-i-110-e-lode-piu-veloci/'>perfect GPA at Politecnico di Milano</a>, and a Double Master’s Degree at EIT Digital, graduating with honors at both Aalto University and Politecnico di Milano.
+    </p>
+    <p class='lead'>
+    I have recently worked in Ericsson as Research Intern, where I conducted my <a target='_blank' href='https://aaltodoc.aalto.fi/handle/123456789/123176'>Master Thesis</a> on VR-IoT integration. The thesis was also a success, as it was awarded 5/5 (excellent) from Aalto, and was presented at the Ericsson HQ in Sweden in occasion of multiple internal events with company experts from all over the globe.
+    </p>
+    <p class='lead'>
+    My area of focus lies in the interactivity aspects of applications, designing systems while taking care of the usability aspects of the interface. However, I consider myself to be a versatile person, and my expertise ranges several programming laguages and tools.
+    </p>"
+  button: 
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/alessandro-atanassov-a196b4226"
+  image:
+    x: "img/works/projects/vireo.jpg"
+    _2x: "img/works/vireo.jpg"
+  imageMobile:
+    x: "img/works/projects/vireo.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "EIT Digital Master School"
+      year: "2021-2023"
+      degree: "Double Master's Degree (MSc), Human-Computer Interaction and Design"
+
+    - university: "Aalto University"
+      year: "2021-2023"
+      degree: "Master of Science (MSc) in ICT Innovation
+      Exit Year of Double Degree at EIT Digital
+      Grade: Pass with Honours"
+
+    - university: "Politecnico di Milano"
+      year: "2021-2023"
+      degree: "Master of Science (MSc) in Computer Science and Engineering
+      Entry Year of Double Degree at EIT Digital
+      Grade: 110/110 with Honours"
+
+    - university: "Politecnico di Milano"
+      year: "2018-2021"
+      degree: "Bachelor of Science (BSc), Engineering of Computing Systems
+      Grade: 110/110 with Honours"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/alessandro-atanassov-a196b4226"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Research Intern"
+      company: "Ericsson Research, Finland"
+      duration: "Aug 2023 - Nov 2023"
+
+    - title: "Master Thesis Worker"
+      company: "Ericsson Research, Finland"
+      duration: "Jan 2023 - Jul 2023"
+
+# Client & Work
+client_and_work:
+  title: "Projects"
+  enable: true
+
+  works:
+    - title: "Master's Thesis: \"ViReo\""
+      description: "<p class='lead'>ViReo is a system that enables visualization and interaction with IoT devices in VR applications. ViReo aims to achieve ease of integration of heterogeneous IoT systems through standard methods, in VR.
+      </p><p class='lead'>
+      Thesis at <b>Aalto University</b> and <b>Ericsson Research</b>. <b>Grade: 5/5 (excellent)</b></p>"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Check it out"
+        URL: "/projects/1"
+      image:
+        x: "img/works/vireo.jpg"
+        _2x: "img/works/vireo.jpg"
+      is_even: true
+
+    - title: "Magic Room game \"Explora!\""
+      description: "Game for children (6-12 y.o.) in Multisensory Environments (MSEs). This 2-player game features full-body interactions, and aims to stimulate explorative behavior and collaboration skills between children."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Check it out"
+        URL: "#"
+      image:
+        x: "img/works/explora.jpg"
+        _2x: "img/works/explora.jpg"
+      is_even: false
+
+    - title: "Masters of Renaissance"
+      description: "Digital version of the board game Masters of Renaissance, implemented in Java. Implemented as a distributed system, based on the MVC architecture, with a single server and multiple connected clients."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Check it out"
+        URL: "/projects/3"
+      image:
+        x: "img/works/renaissance.png"
+        _2x: "img/works/renaissance.png"
+      is_even: true
+
+    - title: "Tourist website \"Towny\""
+      description: "Responsive web application dedicated to a fictious touristic town, named &quot;Towny&quot;, implemented in Vue 2 and NuxtJS 2. SEO-optimized and SSG rendered."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Check it out"
+        URL: "#"
+      image:
+        x: "img/works/towny.png"
+        _2x: "img/works/towny.png"
+      is_even: false
+
+    - title: "E-commerce frontend \"Karadazzi Deliveries\""
+      description: "Responsive cross-device frontend of an e-commerce platform selling Bulgarian specialties, implemented using Flutter."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Check it out"
+        URL: "#"
+      image:
+        x: "img/works/ecommerce.png"
+        _2x: "img/works/ecommerce.png"
+      is_even: true
+
+    - title: "Multiplayer VR Escape Room"
+      description: "Coding assignment featuring a simple Escape Room game in VR, where players collaborate to solve enigmas to escape. Multiplayer game in Unity/C#."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Check it out"
+        URL: "#"
+      image:
+        x: "img/works/escaperoom.png"
+        _2x: "img/works/escaperoom.png"
+      is_even: false
+
+    - title: "Mobile music player"
+      description: "Responsive cross-platform application featuring an online music playlist manager, where users can manage playlists and listen to their tracks. Implemented in React Native."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Check it out"
+        URL: "#"
+      image:
+        x: "img/works/playlimi.png"
+        _2x: "img/works/playlimi.png"
+      is_even: false
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  email:
+    title: "Email"
+    email: '<a href="mailto:ale.atanassov@gmail.com">ale.atanassov@gmail.com</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+

@@ -1,0 +1,91 @@
+/* You can customize theme styles here */
+.education__degree{padding: 5px 0 5px 0;}
+.education__subtitle{
+    position:relative;
+    font-size:22px;
+    font-weight:500;
+    z-index:2;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.education__uni{
+    font-style: italic;
+    position:relative;
+    font-size:18px;
+    font-weight:500;
+    z-index:2;
+    line-height: 1.2;
+}
+.education__degree ul{
+    padding-left: 15px;
+    /* padding-top: 10px; */
+}
+.education__degree p{
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+
+.logos {
+    padding-top: 20px;
+    width: 60%;
+    justify-content: center;
+}
+.logos img {
+    padding: 10px 0 10px 0;
+}
+
+@media (min-width: 768px) {
+    .education__date {
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 15px;
+    }
+    .timeline .timeline-item:after {
+        background-color: hsl(0, 0%, 80%);
+        left: 150px;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        content: "";
+    }
+    .education {
+        padding-top: 10px;
+        border-left: 2px solid hsl(0, 0%, 90%);
+        margin-left: -33.75px;
+        padding-left: 33.75px;
+    }
+    .timeline {
+        padding-top: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .education__date {
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 5px;
+    }
+    .timeline {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+}
+
+.timeline {
+    position: relative;
+    list-style: none;
+}
+.timeline .timeline-item {
+    position: relative;
+}
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 25px;
+}
+
+#portfolio .btn [class^="icon-"] {
+    padding-left: 7.5px;
+    margin-right: 0px !important;
+}

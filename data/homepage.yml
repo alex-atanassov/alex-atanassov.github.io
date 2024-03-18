@@ -1,0 +1,255 @@
+homepage:
+  head:
+    title: "Home | Alessandro Atanassov"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Alessandro."
+  subtitle: "Computer Engineer (MSc)"
+  description: "
+  I'm a Double Master graduate <b>with honours</b> in Computer Science, majoring in Human-Computer Interaction and Design. I have recently worked in <a target='_blank' href='https://www.ericsson.com/'>Ericsson</a> as Research Intern, where I conducted my Master Thesis on VR-IoT integration. Highly result-oriented, critical thinker and problem solver."
+  image:
+    x: "img/showcase/cv.png"
+    _2x: "img/showcase/cv.png"
+  imageMobile:
+    x: "img/showcase/cv-mobile.png"
+
+  buttonLinkedin:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/alessandro-atanassov-a196b4226/"
+
+  buttonGithub:
+    icon: "icon-github-line"
+    btnText: "GitHub"
+    URL: "https://github.com/alex-atanassov"
+
+  # buttonEmail:
+  #   icon: "icon-mail-fill"
+  #   btnText: "E-Mail"
+  #   URL: "mailto:ale.atanassov@gmail.com"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: "<p class='lead'>
+    My career is marked by a Bachelor Degree completed with a <a target='_blank' href='https://alumni.polimi.it/en/2021/11/09/al-poli-borse-di-studio-e-mentoring-per-i-110-e-lode-piu-veloci/'>perfect GPA at Politecnico di Milano</a>, and a Double Master’s Degree at EIT Digital, graduating with honors at both Aalto University and Politecnico di Milano.
+    </p>
+    <p class='lead'>
+    I have recently worked in Ericsson as Research Intern, where I conducted my <a target='_blank' href='https://aaltodoc.aalto.fi/handle/123456789/123176'>Master Thesis</a> on VR-IoT integration. The thesis was awarded 5/5 (excellent) from Aalto, and was presented at the Ericsson Technology Conference, one of the most exclusive events gathering company experts from all over the globe.
+    </p>
+    <p class='lead'>
+    My area of focus lies in the interactivity aspects of applications, designing systems while taking care of the usability aspects of the interface. However, I consider myself to be a versatile person, and my expertise ranges several programming languages and tools.
+    </p>"
+  # button: 
+  #   icon: "icon-smile-fill"
+  #   btnText: "About Me"
+  #   URL: "https://www.linkedin.com/in/alessandro-atanassov-a196b4226"
+  image:
+    x: "img/who-am-i/cv.jpg"
+    _2x: "img/who-am-i/cv.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - year: "2021-2023"
+      university: "Aalto University, Polytechnic University of Milan"
+      logos:
+        - url: "img/education/aalto.png"
+          alt: "Aalto University"
+        - url: "img/education/polimi.png"
+          alt: "Polytechnic University of Milan"
+        - url: "img/education/eit.png"
+          alt: "EIT Digital"
+      
+      title: "Double Master's Degree"
+      degree: "Computer Science and Engineering"
+      description: "<p>Double degree programme with <span style='font-weight:500;'>EIT Digital Master School</span>.</p>
+      
+      <ul>
+          <li>
+              <span style='font-weight:600;'>Major:</span> Human-Computer Interaction and Design (HCID);
+          </li>
+          <li>
+              <span style='font-weight:600;'>Minor:</span> Innovation & Entrepreneurship (I&E).
+          </li>
+      </ul>
+      <p>The programme involves the attendance of two universities among the most respected ones in Europe. 
+      In addition, the degree includes a <span style='font-weight:500;'>Summer School</span> in Innovation & Entrepreneurship, held <span style='font-weight:500;'>in Bratislava</span>.</p>
+
+      <p>
+          The first year was attended in <span style='font-weight:500;'>Polytechnic University of Milan</span>; the second year was in <span style='font-weight:500;'>Aalto University</span>, including my Master Thesis <i>\"ViReo: Internet of Things Integration in eXtended Reality for Network Platforms\"</i>, graded 5/5.
+      </p>
+
+      <p>
+          Graduated <span style='font-weight:600;'>with honors</span> from both universities.
+      </p>"
+
+    - year: "2018-2021"
+      university: "Polytechnic University of Milan"
+      logos:
+        - url: "img/education/polimi.png"
+          alt: "Polytechnic University of Milan"
+      title: "Bachelor's Degree"
+      degree: "Engineering of Computing Systems"
+      description: "<p>This degree programme has the objective of preparing engineers with a broad range of information technology methodologies used to deal with and solve complex problems.</p>
+                                
+      <p>Courses taken include the essential scientific skills needed for Engineering (e.g., analysis, geometry, algebra, mathematical logic, statistics and probability theory), as well as practical Computer Science courses and projects, including Programming, Algorithms and Data Structures, and Software Engineering, and Digital Circuits modeling.</p>
+
+      <p>
+          Graduated <span style='font-weight:600;'>with honors (\"110/110 cum Laude\")</span> and <span style='font-weight:600;'>perfect GPA (30/30)</span>. 
+      <br>
+          I also was awarded a scholarship as <a target='_blank' href='https://alumni.polimi.it/en/2021/11/09/al-poli-borse-di-studio-e-mentoring-per-i-110-e-lode-piu-veloci/'>\"fastest graduate with honors\"</a>, proving my commitment to respect tight schedules, while delivering the best results.
+      </p>"
+
+
+# experience
+experience:
+  enable: true
+  title: "Work experience"
+  description: "Although my journey in the industry has just started, since my first job I immediately learned to adapt in new settings and overcome the initial barriers, managing to complete my work with no delays and with great appreciation from my team."
+  # button:
+  #   icon: "icon-linkedin-fill"
+  #   btnText: "Linkedin"
+  #   URL: "https://www.linkedin.com/in/alessandro-atanassov-a196b4226"
+  # button2:
+  #   icon: "icon-profile-fill"
+  #   btnText: "Download My Resume"
+  #   URL: "#"
+
+  items:
+    - title: "Researcher"
+      company: "Ericsson Research, Finland"
+      description: "<p>Continuation of research activities after the Master Thesis, related to XR-IoT integration. Prototyping using the 3D engines Unity and Godot, with OpenXR for cross-platform development.</p><p>Contributions on two patents, currently filed as patent applications."
+      duration: "Aug 2023 - Nov 2023"
+
+    - title: "Master Thesis Worker"
+      company: "Ericsson Research, Finland"
+      description: "<p>Internship connected with the development of my Master Thesis \"ViReo\", a system enabling interaction with IoT devices in VR, engineered to simplify the integration between heterogeneous IoT systems and VR applications. </p><p>The work was presented at the Ericsson Technology Conference in Sweden, an event gathering company experts from around the world."
+      duration: "Jan 2023 - Jul 2023"
+
+# Client & Work
+client_and_work:
+  title: "Projects"
+  enable: true
+
+  works:
+    - title: "Master's Thesis: \"ViReo\""
+      description: "<p class='lead'>ViReo is a system that enables visualization and interaction with IoT devices in VR applications. ViReo aims to achieve ease of integration of heterogeneous IoT systems through standard methods, in VR.
+      </p><p class='lead'>
+      Thesis at <b>Aalto University</b> and <b>Ericsson Research</b>. <b>Grade: 5/5 (excellent)</b></p>"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Thesis"
+        URL: "https://aaltodoc.aalto.fi/handle/123456789/123176"
+      button2:
+        icon: "icon-youtube-line"
+        btnText: "Video"
+        URL: "https://youtu.be/9DnJ_piCbQw"
+      image:
+        x: "img/works/vireo.jpg"
+        _2x: "img/works/vireo.jpg"
+      is_even: true
+
+    - title: "Magic Room game \"Explora!\""
+      description: "Game for children (6-12 y.o.) in Multisensory Environments (MSEs). This 2-player game features full-body interactions, and aims to stimulate explorative behavior and collaboration skills between children."
+      button:
+        icon: "icon-github-line"
+        btnText: "Check it out"
+        URL: "https://github.com/gubo97000/generative-content-smart-room"
+      button2:
+        icon: "icon-youtube-line"
+        btnText: "Video"
+        URL: "https://www.youtube.com/watch?v=q-ZSxC2qIYk"
+      image:
+        x: "img/works/explora.jpg"
+        _2x: "img/works/explora.jpg"
+      is_even: false
+
+    - title: "Masters of Renaissance"
+      description: "Digital version of the board game Masters of Renaissance, implemented in Java. Implemented as a distributed system, based on the MVC architecture, with a single server and multiple connected clients."
+      button:
+        icon: "icon-github-line"
+        btnText: "Check it out"
+        URL: "https://github.com/damianoamatruda/masters-of-renaissance"
+      image:
+        x: "img/works/renaissance.png"
+        _2x: "img/works/renaissance.png"
+      is_even: true
+
+    - title: "Tourist website \"Towny\""
+      description: "Responsive web application dedicated to a fictious touristic town, named &quot;Towny&quot;, implemented in Vue 2 and NuxtJS 2. SEO-optimized and SSG rendered."
+      button:
+        icon: "icon-github-line"
+        btnText: "Check it out"
+        URL: "https://github.com/gubo97000/HYP-Project"
+      button2:
+        icon: "icon-arrow-right"
+        btnText: "Demo"
+        URL: "https://gubo.dev/HYP-Project/"
+      image:
+        x: "img/works/towny.png"
+        _2x: "img/works/towny.png"
+      is_even: false
+
+    - title: "E-commerce frontend \"Karadazzi Deliveries\""
+      description: "Responsive cross-device frontend of an e-commerce platform selling Bulgarian specialties, implemented using Flutter."
+      button:
+        icon: "icon-github-line"
+        btnText: "Check it out"
+        URL: "https://github.com/alex-atanassov/dad-2022-project-2"
+      button2:
+        icon: "icon-arrow-right"
+        btnText: "Demo"
+        URL: "https://alex-atanassov.github.io/dad-2022-project-2/"
+      image:
+        x: "img/works/ecommerce.png"
+        _2x: "img/works/ecommerce.png"
+      is_even: true
+
+    - title: "Multiplayer VR Escape Room"
+      description: "Coding assignment featuring a simple Escape Room game in VR, where players collaborate to solve enigmas to escape. Multiplayer game in Unity/C#."
+      button:
+        icon: "icon-github-line"
+        btnText: "Check it out"
+        URL: "https://github.com/alex-atanassov/cvw-vr-escape-room"
+      button2:
+        icon: "icon-youtube-line"
+        btnText: "Video"
+        URL: "https://youtu.be/4b7HMgHmBE4"
+      image:
+        x: "img/works/escaperoom.png"
+        _2x: "img/works/escaperoom.png"
+      is_even: false
+
+    # - title: "Mobile music player"
+    #   description: "Responsive cross-platform application featuring an online music playlist manager, where users can manage playlists and listen to their tracks. Implemented in React Native."
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "Check it out"
+    #     URL: "#"
+    #   image:
+    #     x: "img/works/playlimi.png"
+    #     _2x: "img/works/playlimi.png"
+    #   is_even: false
+
+# contact
+# contact:
+#   enable: true
+#   title: "Contact"
+#   form:
+#     action: "#"
+#     full_name: "Full Name"
+#     email: "Email Address"
+#     message: "Type Your Message Here"
+#   email:
+#     title: "Email"
+#     email: '<a href="mailto:ale.atanassov@gmail.com">ale.atanassov@gmail.com</a>'
+#   button:
+#     icon: "icon-mail-fill"
+#     btnText: "Send Message"
+
