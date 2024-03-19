@@ -60,3 +60,11 @@ languageCode = "en-us"
   [params.logo]
     text1 = "Alessandro"
     text2 = "Atanassov"
+
+
+
+[sitemap]
+  changeFreq = ''
+  filename = 'sitemap.xml'
+  priority = -1
+
