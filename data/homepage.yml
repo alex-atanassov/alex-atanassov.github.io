@@ -153,7 +153,7 @@ client_and_work:
       image:
         x: "img/works/vireo.jpg"
         _2x: "img/works/vireo.jpg"
-      is_even: true
+      is_even: false
 
     - title: "Magic Room game \"Explora!\""
       description: "Game for children (6-12 y.o.) in Multisensory Environments (MSEs). This 2-player game features full-body interactions, and aims to stimulate explorative behavior and collaboration skills between children."
@@ -168,7 +168,7 @@ client_and_work:
       image:
         x: "img/works/explora.jpg"
         _2x: "img/works/explora.jpg"
-      is_even: false
+      is_even: true
 
     - title: "Masters of Renaissance"
       description: "Digital version of the board game Masters of Renaissance, implemented in Java. Implemented as a distributed system, based on the MVC architecture, with a single server and multiple connected clients."
@@ -179,7 +179,7 @@ client_and_work:
       image:
         x: "img/works/renaissance.png"
         _2x: "img/works/renaissance.png"
-      is_even: true
+      is_even: false
 
     - title: "Tourist website \"Towny\""
       description: "Responsive web application dedicated to a fictious touristic town, named \"Towny\", implemented in Vue 2 and NuxtJS 2. SEO-optimized and SSG rendered."
@@ -194,6 +194,21 @@ client_and_work:
       image:
         x: "img/works/towny.png"
         _2x: "img/works/towny.png"
+      is_even: true
+
+    - title: "Munich AI Guide"
+      description: "AI chatbot for recommendations on sushi restaurants and parking garages for a user located in Marienplatz, Munich. React application, powered by OpenAI's GPT-4o and text-to-speech/speech-to-text capabilities."
+      button:
+        icon: "icon-github-line"
+        btnText: "Check it out"
+        URL: "https://github.com/alex-atanassov/munich-ai-guide"
+      button2:
+        icon: "icon-youtube-line"
+        btnText: "Video"
+        URL: "https://www.youtube.com/watch?v=M-3mcn1_TEQ"
+      image: 
+        x: "img/works/munich.png"
+        _2x: "img/works/munich.png"
       is_even: false
 
     - title: "E-commerce frontend \"Karadazzi Deliveries\""
