@@ -8,7 +8,7 @@ showcase:
   title: "Hello, I’m Alessandro."
   subtitle: "Computer Engineer (MSc)"
   description: "
-  I'm a Double Master graduate <b>with honours</b> in Computer Science, majoring in Human-Computer Interaction and Design. I have recently worked in <a target='_blank' href='https://www.ericsson.com/'>Ericsson</a> as Researcher, where I also conducted my Master Thesis on VR-IoT integration. Highly result-oriented, critical thinker and problem solver."
+  I'm a Double Master graduate <b>with honours</b> in Computer Science, with strong foundation in Software Engineering, Full Stack and Mobile Development. I have recently worked in <a target='_blank' href='https://www.ericsson.com/'>Ericsson</a> Research, where I also conducted my Master Thesis on VR-IoT integration. Highly result-oriented, critical thinker and problem solver."
   image:
     x: "img/showcase/cv.png"
     _2x: "img/showcase/cv.png"
@@ -38,7 +38,7 @@ about:
     My career is marked by a Bachelor Degree completed with a <a target='_blank' href='https://alumni.polimi.it/en/2021/11/09/al-poli-borse-di-studio-e-mentoring-per-i-110-e-lode-piu-veloci/'>perfect GPA at Politecnico di Milano</a>, and a Double Master’s Degree at EIT Digital, graduating with honors at both Aalto University and Politecnico di Milano.
     </p>
     <p class='lead'>
-    I have recently worked in Ericsson as Researcher, where I also conducted my <a target='_blank' href='https://aaltodoc.aalto.fi/handle/123456789/123176'>Master Thesis</a> on VR-IoT integration. The thesis was awarded 5/5 (excellent) from Aalto, and was presented at the Ericsson Technology Conference, one of the most exclusive events gathering company experts from all over the globe.
+    I have recently worked in Ericsson Research, where I also conducted my <a target='_blank' href='https://aaltodoc.aalto.fi/handle/123456789/123176'>Master Thesis</a> on VR-IoT integration. The thesis was awarded 5/5 (excellent) from Aalto, and was presented at the Ericsson Technology Conference, one of the most exclusive events gathering company experts from all over the globe.
     </p>
     <p class='lead'>
     My area of focus lies in the interactivity aspects of applications, designing systems while taking care of the usability aspects of the interface. However, I consider myself to be a versatile person, and my expertise ranges several programming languages and tools.
@@ -122,9 +122,9 @@ experience:
   #   URL: "#"
 
   items:
-    - title: "Researcher"
+    - title: "Software Engineer"
       company: "Ericsson Research, Finland"
-      description: "<p>Continuation of research activities after the Master Thesis, related to XR-IoT integration. Prototyping using the 3D engines Unity and Godot, with OpenXR for cross-platform development.</p><p>Contributions on two patents, currently filed as patent applications."
+      description: "<p>Development of XR-IoT integration solutions, following the outcomes of my Master Thesis work.</p><p><b>Tech stack:</b> Unity/C#, Godot, TypeScript, MQTT, OpenXR.</p><p>The project led to the creation of 2 patents on advanced XR streaming architectures."
       duration: "Aug 2023 - Nov 2023"
 
     - title: "Master Thesis Worker"
